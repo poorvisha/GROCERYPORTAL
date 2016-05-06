@@ -1,0 +1,338 @@
+
+body
+{ 
+	background-color: #ebffeb;
+    color: black;
+    font-family: 'Comic San MS', 'Book Antiqua';
+    font-size: 14pt;
+    font-style: normal;
+    width: 100%;
+    margin: 0px;
+	padding: 0px;
+}
+
+#home
+{
+	background-image:url("http://truthinmedia.com/wp-content/uploads/2013/10/grocery_store_2_by_caseyxrobertson-d35u001.jpg");"
+}
+
+
+.align
+{
+text-align : center;
+}
+
+.align1
+{
+	text-align:right;
+}
+
+#mainwrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    width:100%;
+}
+
+#maincontainer{
+	display:flex;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+#login_form
+{
+	border: 1px solid transparent;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    width:50%;
+    margin-top:10%;
+}
+
+#login
+{
+	width :100%;
+	padding-left: 25%;
+}
+
+.buttonwrap
+{
+	color:black;
+	font-size:13pt;
+	border:1px solid black;
+	text-align:center;
+	padding:5px;
+}
+
+.textboxwrap
+{
+	border-width:2px;
+	padding:6px;
+}
+
+#register_form
+{
+	border:1px solid transparent;
+	border-radius:2px;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+    width:50%;
+    margin-top:8%;
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+.registerbuttonwrap
+{
+	color:black;
+	font-size:13pt;
+	border:1px solid black;
+	text-align:center;
+	padding:5px;
+	width:15%;
+}
+
+#buttons
+{
+	padding-left: 20%;
+    margin-top: 5%;
+}
+
+#register{
+	width:75%;
+}
+
+#headerwrap
+{
+	background-color:#2e9553;
+	display:flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+	flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+}
+#menuwrap {
+    background:#3f3f3f;
+}
+#menuwrap ul {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menuwrap li {
+    padding: 0px 20px 0px 0px;
+}
+#menuwrap li a{
+   border:1px solid transparent;
+   border-radius:3px; 
+   background:#ebffeb;
+   text-decoration:none;
+}
+
+#logosectionwrap h2
+{
+	float:left;
+}
+#logosectionwrap ul
+{
+	display:flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+	flex-direction:row;
+	-moz-flex-direction:row;
+	-webkit-flex-direction:row;
+	list-style-type:none;
+	flex-wrap:wrap;
+	float: right;
+}
+
+#logosectionwrap li {
+    padding: 0px 20px 0px 0px;
+}
+#logosectionwrap li a{
+   border:1px solid transparent;
+   border-radius:3px; 
+   background:#ebffeb;
+   text-decoration:none;
+}
+
+#footerwrap
+{
+	background-color:#2e9553;
+	text-align: center;
+}
+
+#mainproductswrap
+{
+    display:flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+	flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+#productsdisplay
+{
+	display:flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+	flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+#itemdetailsdisplay
+{
+	display:flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+	flex-direction:row;
+	-moz-flex-direction:row;
+	-webkit-flex-direction:row;
+}
+
+#itemimage
+{
+	width:30%;
+	display:flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+	 -webkit-align-items:center;
+	 align-items:center;
+	 flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+}
+#itemimage img
+{
+	width:25%;
+	height:25%;
+	float:center;
+}
+
+#itemdetails
+{
+	width:30%;
+	display:flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+	 -webkit-align-items:center;
+	 align-items:center;
+	 flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+#itemform
+{
+	width:30%;
+	display:flex;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-moz-flex;
+	display:-webkit-flex;
+	 -webkit-align-items:center;
+	 align-items:center;
+	 flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+.Addbutton,.Removebutton
+{
+	background:#2e9553;
+	color:black;
+	font-weight:bold;
+}
+
+hr {
+    border: 1px solid #2e9553;
+    background: #2e9553;
+    width:100%;
+}
+
+#totalorderdisplay
+{
+	text-align:center;
+	color:red;
+}
+
+.submitbutton
+{
+	background:#2e9553;
+	color:black;
+	font-weight:bold;
+	height: 50px;
+    font-size: 15pt;
+}
+
+#ordersubmit
+{
+	margin: 0px auto;
+}
+
+#logoutpage
+{
+    text-align: center;
+    width:100%;
+}
